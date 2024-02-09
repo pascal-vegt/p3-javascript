@@ -27,7 +27,7 @@ text.innerText = "er zitten " + winkelmand.length + " items in uw winkelmand";
 text1.innerText = "Uw producten zijn: " + winkelmand;
 text2.innerText = winkelmand[3] + ", staat op de vierde plek in uw winkelmand";
 text3.innerText = winkelmand;
-
+winkelmand[1] = "Bier";
 if (winkelmand.length > 1) {
   text4.innerText = "Uw producten zijn: " + winkelmand;
 } else {
