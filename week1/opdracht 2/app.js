@@ -5,8 +5,9 @@ let button = document.getElementById("submitbutton");
 let shop = [];
 
 button.addEventListener("click", function add_product() {
+    let product = input.value
   if (input.value != "") {
-    shop.push(" " + input.value);
+    shop.push(" " + product);
     input.value = "";
   } else {
     alert("Wat je hebt ingevult is niet geldig");
