@@ -1,0 +1,8 @@
+.block {
+  width: 200px;
+  height: 200px;
+  background-image: url(./jason.png);
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+}
