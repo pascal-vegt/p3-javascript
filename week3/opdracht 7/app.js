@@ -1,4 +1,4 @@
-const numBlocks = 10;
+const numBlocks = 30;
 const blocks = [];
 
 for (let i = 1; i <= numBlocks; i++) {
@@ -9,7 +9,7 @@ for (let i = 1; i <= numBlocks; i++) {
   blocks.push(block);
 
   block.addEventListener("click", () => changeColorOnClick(i));
-  setInterval(() => moveBlock(i), 600 * i);
+  setInterval(() => moveBlock(i), 100 * i);
 }
 
 function moveBlock(index) {
