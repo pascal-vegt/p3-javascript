@@ -1,6 +1,6 @@
 // hoofdstuk 2.1 Variabelen
 
-const firstName = "Pascal";
+const firstName = "Taiga";
 let temperature = 9;
 temperature += 5;
 
