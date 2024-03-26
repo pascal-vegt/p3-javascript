@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reaction_window {
+  height: 50%;
+  width: 75%;
+  background-color: #aaa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  font-size: 36px;
+  padding: 15px 70px;
+}
+
+.text {
+  position: absolute;
+  font-size: 32px;
+  top: 430px;
+}
+
+#restartButton {
+  display: none;
+}
+
+#goButton {
+  z-index: 2;
+}
