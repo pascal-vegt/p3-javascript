@@ -37,6 +37,7 @@ container.addEventListener("click", function () {
     reaction = stopTime - startTime;
     timeText.innerText =
       "Your reaction time is " + reaction + "ms";
+      startButton.style.display = "block";
   }
 });
 
